@@ -2,7 +2,7 @@
     <div id="app" @touchmove.prevent>
         <v-header :seller="seller"></v-header>
         <div class="tab-wrapper">
-            <!--<tab :tabs="tabs"></tab>-->
+            <tab :tabs="tabs"></tab>
         </div>
     </div>
 </template>
@@ -11,10 +11,10 @@
   import qs from 'query-string'
   import { getSeller } from 'api'
   import VHeader from 'components/v-header/v-header'
-  /*import Goods from 'components/goods/goods'
+  import Goods from 'components/goods/goods'
   import Ratings from 'components/ratings/ratings'
   import Seller from 'components/seller/seller'
-  import Tab from 'components/tab/tab'*/
+  import Tab from 'components/tab/tab'
 
   export default {
     data() {

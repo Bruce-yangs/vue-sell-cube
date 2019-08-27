@@ -1,4 +1,5 @@
-import axios from 'ts-axios-new'
+// import axios from 'ts-axios-new'
+import axios from 'axios'
 
 const urlMap = {
   development: '/',
